@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/appName1"
+        android:layout_width="334dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:text="Money Status"
+        android:textColor="#000000"
+        android:textColorHighlight="#FF0000"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="334dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="116dp"
+        android:gravity="center_horizontal"
+        android:shadowColor="#8A8888"
+        android:text="Amount of money:"
+        android:textColor="#1C1C1C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appName1" />
+
+    <TextView
+        android:id="@+id/amountNum"
+        android:layout_width="334dp"
+        android:layout_height="30dp"
+        android:gravity="center_horizontal"
+        android:shadowColor="#8A8888"
+        android:text="0"
+        android:textColor="#1C1C1C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amount" />
+
+    <TextView
+        android:id="@+id/expenses"
+        android:layout_width="334dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center_horizontal"
+        android:shadowColor="#8A8888"
+        android:text="Expenses:"
+        android:textColor="#1C1C1C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/incomesNum" />
+
+    <TextView
+        android:id="@+id/expensesNum"
+        android:layout_width="334dp"
+        android:layout_height="30dp"
+        android:gravity="center_horizontal"
+        android:shadowColor="#8A8888"
+        android:text="0"
+        android:textColor="#1C1C1C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/expenses" />
+
+    <TextView
+        android:id="@+id/incomes"
+        android:layout_width="334dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center_horizontal"
+        android:shadowColor="#8A8888"
+        android:text="Incomes:"
+        android:textColor="#1C1C1C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/amountNum" />
+
+    <TextView
+        android:id="@+id/incomesNum"
+        android:layout_width="334dp"
+        android:layout_height="30dp"
+        android:gravity="center_horizontal"
+        android:shadowColor="#8A8888"
+        android:text="0"
+        android:textColor="#1C1C1C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/incomes" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
